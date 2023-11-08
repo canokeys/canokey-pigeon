@@ -18,6 +18,9 @@ JNA30mtp2+YCIQDA88Pp+Kjx3c4nrgRgSaSueC5IlvwpTSGBGwRYDSdMTA==
 
 ## Changelog
 
+### 2.0.1
+1. FIDO: Solve the problem of registration failure on the new version of Firefox. Specifically, do not return a map when the extension map is empty to avoid deserialization errors in the library used by Firefox (mozilla/authenticator-rs#317).
+
 ### 2.0.0
 1. FIDO: Updated to FIDO version 2.1, supporting Credential Management, Credential Protection, Credential Blob, and Large Blob Key features, fixed a key generation bug (#19)
 2. PIV: Supports configuring key properties (whether touch is required, whether PIN verification is required), added two sets of keys 82/83, supports some metadata to enhance compatibility.
