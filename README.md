@@ -1,4 +1,4 @@
-# CanoKey Pidgeon
+# CanoKey Pigeon
 
 ## CA cert of FIDO
 
