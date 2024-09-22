@@ -35,7 +35,7 @@ JNA30mtp2+YCIQDA88Pp+Kjx3c4nrgRgSaSueC5IlvwpTSGBGwRYDSdMTA==
 ### 1.6.1
 
 1. Fix: USB is not reset when rebooting.
-2. Increase the max size of certificate to 3072 bytes.
+2. Increase the max size of certificate to 3000 bytes.
 
 ### 1.5.2
 
